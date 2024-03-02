@@ -1,8 +1,6 @@
-.item1 {grid-area header}
-.item2 {grid-area }
-.item3 {}
-.item4 {}
-.item5 {}
+.container {
+    display: grid | inline-grid;
+}
 h1 {
     text-align: center;
     font-family: papyrus;
