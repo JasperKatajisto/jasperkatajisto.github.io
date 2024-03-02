@@ -1,6 +1,6 @@
-.container {
-    display: grid inline-grid
-}
+.grid-container {
+    display: grid;
+  }
 h1 {
     text-align: center;
     font-family: papyrus;
