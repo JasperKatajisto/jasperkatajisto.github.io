@@ -1,8 +1,172 @@
+body
+{
+  background-image: url(file:///C:/Users/Jasper/Downloads/imgbg.jpg);
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  margin-top: 0px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+  margin-left: 150px
+}
+
+nav
+{
+  text-align:center;
+  font-family:  "Poor Richard";
+  font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 200px
+}
+nav a {
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 50px;
+  }
+  a.nav {
+    color: black;
+    background-color: tan;
+    text-decoration: solid, underline;
+    display: inline-block;
+    border-style: solid;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: solid, underline;
+  }
+  a.link2 {
+    color: blue;
+
+  }
+
+.content
+{
+  color: #000000;
+  text-align: justify;
+  font-family: "Bahnschrift Light";
+  font-size: 22px;
+  width: 50%;
+  margin-top: 0px;
+  margin-right: 500px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  border-color: #808080;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  padding-right: 400px;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+.yhteystiedot {
+  text-align: justify;
+  font-family: "Bahnschrift Light";
+  font-size: 22px;
+  width: 50%;
+  margin-top: 0px;
+  margin-right: 500px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  border-color: #808080;
+  border-width: 5px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  padding-right: 400px;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+  .yhteystiedot2 {
+    font-size:20px;
+    font-family: "Bahnschrift Light";
+    text-indent: 0px;
+    padding-bottom: 40px;
+  }
+  .yhteystiedot3 {
+    font-size:20px;
+    font-family: "Bahnschrift Light";
+    text-indent: 0px;
+ }
+
 
 h1 {
+    font-size: 40px;
     text-align: center;
-    font-family: papyrus;
-    font-size: 20px
+    font-family: "Papyrus";
+    height: 20px;
+    }
+h2 {
+    font-size: 30px;
+    text-align: justify;
+    font-family:  "Poor Richard";
+    padding-left: 150px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: -40px;
+    margin-left: 100px;
+
+}
+h3 {
+    font-size: 30px;
+    font-family:  "Poor Richard";
+    padding-left: 150px;
+    margin-top: 0px;
+    margin-right: 500px;
+    margin-bottom: -40px;
+    margin-left: 100px;
+}
+h4 {
+  font-size: 40px;
+  font-family: "Poor Richard";
+  padding-bottom: 50px;
+}
+p {
+    font-size:20px;
+    font-family: "Bahnschrift Light";
+    text-indent: 50px;
+    padding-right: 50px;
 }
 
 
+    @media screen and (min-width: 1200px) {
+        #etusivu {
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 550px;
+        }
+    }
+    .galleriaotsikko {
+      height: 100px;
+      padding: 20px;
+    
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-top: -50px;
+      margin-top: 600px;
+
+    }
+    .kuvat1 {
+      margin: auto;
+      width: 65%;
+      padding-left: 200px;
+      padding-right: 200px;
+      display: inline-grid;
+    }
+
+    figcaption {
+      font-size:20px;
+    font-family: "Bahnschrift Light";
+    text-indent: 10px;
+    }
+
+    kuvat2 {
+
+    }
