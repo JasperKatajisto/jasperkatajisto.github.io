@@ -1,68 +1,399 @@
-body
-{
-  background-image: url(https://github.com/JasperKatajisto/jasperkatajisto.github.io/blob/main/imgbg.jpg?raw=true);
+body {
   background-color: rgb(255, 255, 255);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 550px;
-  margin-top: 0px;
-  margin-right: 150px;
-  margin-bottom: 0px;
-  margin-left: 150px
+  margin: 0;
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    margin: 0;
 }
 
+.yhtkuvat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 200px;
+}
+
+.yhtkuvat img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+header{
+  text-align: center;
+  padding-top: 30px;
+}
 nav
 {
-  text-align:center;
+  text-align: center;
   font-family:  "Poor Richard";
-  font-size: 22px;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  margin-top: 200px
 }
-nav a {
-    font-size: 30px;
-    width: 200px;
-    height: 30px;
-    padding: 10px;
-    margin: 10px 50px;
-  }
+nav a:hover {
+  color: rgb(253, 209, 180);
+  background-color: rgb(71, 28, 3);
+}
   a.nav {
     color: black;
     background-color: tan;
-    text-decoration: solid, underline;
+    text-decoration: underline;
     display: inline-block;
     border-style: solid;
+
   }
   a:visited {
     color: black;
     background-color: transparent;
-    text-decoration: solid, underline;
+    text-decoration: underline;
   }
   a.link2 {
     color: blue;
 
   }
 
-.content
-{
-  color: #000000;
+  .content {
+    color: #000000;
+    text-align: justify;
+    font-family: "Bahnschrift Light";
+    background-color: white;
+  }
+  /*yhteystieto - sivun asettelua*/
+.yhteystiedot {
   text-align: justify;
   font-family: "Bahnschrift Light";
-  font-size: 22px;
-  width: 50%;
-  margin-top: 0px;
-  margin-right: 500px;
-  margin-bottom: 0px;
-  margin-left: 100px;
-  border-color: #808080;
-  border-width: 5px;
-  border-radius: 5px;
-  background-color: white;
+}
+
+.yhteystiedot2, .yhteystiedot3 {
+  font-family: "Bahnschrift Light";
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Papyrus";
+    height: 20px;
+    }
+h2 {
+    text-align: justify;
+    font-family:  "Poor Richard";
+    background-color: transparent;
+
+}
+h3 {
+    font-family:  "Poor Richard";
+}
+h4 {
+  font-family: "Poor Richard";
+  padding-bottom: 50px;
+}
+p {
+    font-family: "Bahnschrift Light";
+    text-indent: 50px;
+
+}
+   figcaption {
+      font-size:20px;
+    font-family: "Bahnschrift Light";
+    text-indent: 10px;
+    }
+    footer .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+
+    }
+
+/* ===================================================mobiilikoko=========================================================================================================================== */
+@media (max-width: 600px) {
+  #etusivu { 
+     background-image: url('imgbg-mobile.jpg');
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 500px;
+  
+  }
+    nav {
+      font-size: 18px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+      height: auto;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 10px;
+    }
+    
+    nav a {
+   font-size: 20px;
+      width: 65%;
+      height: auto;
+      padding: 5px;
+      margin: 5px 0;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-bottom: 10px;
+      text-decoration: underline;
+      display: inline-block;
+    }
+    
+    .content {
+      color: #000000;
+      text-align: justify;
+      font-family: "Bahnschrift Light";
+      font-size: 18px;
+      width: 100%;
+      border-color: #808080;
+      background-color: white;
+      padding: 20px;
+      height: auto;
+    }
+    
+    h1 {
+      font-size: 32px;
+      text-shadow: 1px 1px whitesmoke;
+    }
+    
+    h2, h3 {
+      font-size: 24px;
+      text-align: justify;
+      font-family: "Poor Richard";
+      margin: 20px 0;
+      padding: 0 20px;
+    }
+    
+    h4 {
+      font-size: 32px;
+      font-family: "Poor Richard";
+      padding-bottom: 20px;
+    }
+    
+    p {
+      font-size: 16px;
+      font-family: "Bahnschrift Light";
+      text-indent: 20px;
+      padding-right: 20px;
+      margin:20px auto;
+    }
+    
+   .kuvat1 figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+    
+    .galleriaotsikko {
+      height: 80px;
+      padding: 10px;
+      margin: 20px 0;
+    }
+    .lomake {
+      width: 75%; 
+      margin: auto; 
+    }
+    .content {
+      text-align: justify;
+      font-family: "Bahnschrift Light";
+      font-size: 18px;
+      width: 100%;
+      margin: 20px auto;
+      background-color: white;
+      margin-right: -10px;
+    }
+    
+    .yhteystiedot2, .yhteystiedot3 {
+      font-size: 16px;
+      font-family: "Bahnschrift Light";
+      padding-bottom: 20px;
+    }
+  }
+ /* ================================tablettikoko========================================================================================================================================= */
+    @media screen and (min-width: 600px) {
+      #etusivu {
+      background-image: url('https://github.com/JasperKatajisto/jasperkatajisto.github.io/blob/main/imgbg.jpg?raw=true');
+      background-color: rgb(255, 255, 255);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 1000px;
+      }
+
+      nav {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-right: 30px;
+      }
+      
+      nav a {
+        font-size: 22px;
+        width: 30%;
+        height: 30px;
+        padding: 10px;
+        margin: 10px 20px;
+        margin-right: 20px;
+      }
+      
+      .content {
+        font-size: 20px;
+        width: 100%;
+        margin: 20px auto;
+        border-color: #808080;
+        border-width: 5px;
+        border-radius: 5px;
+        background-color: white;
+        padding: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+      }
+      
+      h1 {
+        font-size: 36px;
+        text-shadow: 1px 1px whitesmoke;
+      }
+      
+      h2, h3 {
+        font-size: 28px;
+        padding: 0 30px;
+      }
+      
+      h4 {
+        font-size: 36px;
+        padding-bottom: 30px;
+      }
+      
+      p {
+        font-size: 18px;
+        text-indent: 30px;
+        padding-right: 30px;
+      }
+      
+      .kuvat1 {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+      }
+      
+      .galleriaotsikko {
+        height: 120px;
+        padding: 20px;
+        margin: 50px 0;
+      }
+      .lomake {
+        width: 50%; /* Määrittele lomakkeen leveys */
+        margin: auto; /* Aseta automaattisesti marginaalit */
+      }
+      
+      .yhteystiedot {
+        font-size: 20px;
+        width: 100%;
+        margin: 20px auto;
+        background-color: white;
+        padding: 30px;
+      }
+      
+      .yhteystiedot2, .yhteystiedot3 {
+        font-size: 18px;
+        padding-bottom: 30px;
+      }
+    }
+    /*======================suurempi näyttö=============================== */
+    @media screen and (min-width: 1200px) {
+      #etusivu {
+        background-image: url("https://github.com/JasperKatajisto/jasperkatajisto.github.io/blob/main/imgbg.jpg?raw=true");
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        min-height: 100vh;
+      }
+      header {
+        margin-bottom: 20px;
+      }
+        h1 {
+          font-size: 60px;
+          height: 150px;
+          text-shadow: 1px 1px whitesmoke;
+                }
+      }
+      nav {
+      font-size: 22px;
+      margin-top: 150px;
+      margin-bottom: 20px;
+    }
+    nav a {
+      font-size: 30px;
+      width: 200px;
+      height: 30px;
+      padding: 10px;
+      margin: 10px 50px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+    .content {
+      font-size: 22px;
+      width: 100%;
+      margin: 0;
+      border-color: #808080;
+      border-width: 5px;
+      border-radius: 5px;
+      background-color: white;
+      padding: 20px;
+      margin-top: -500px;
+    }
+  
+  h2 {
+    font-size: 30px;
+    text-align: justify;
+    font-family:  "Poor Richard";
+
+    background-color: white;
+
+  }
+h3 { font-size: 30px;
+  font-family:  "Poor Richard";
+
+}
+h4 {
+  font-size: 40px;
+  font-family: "Poor Richard";
+  padding-bottom: 50px;
+}
+p {
+  font-size:20px;
+  font-family: "Bahnschrift Light";
+  text-indent: 50px;
+}
+
+.galleria {
+  width: 100%;
+}
+
+.kuvat1 {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+.galleriaotsikko {
+  height: 100px;
   padding: 20px;
-  padding-right: 400px;
+
   padding-left: 200px;
-  padding-top: 100px;
+  padding-right: 200px;
+  margin-top: 600px;
+
+}
+.galleriakuva {
+  height: auto;
+  width: auto;
+}
+.lomake {
+  width: 50%; /* Määrittele lomakkeen leveys */
+  margin: auto; /* Aseta automaattisesti marginaalit */
 }
 .yhteystiedot {
   text-align: justify;
@@ -73,100 +404,20 @@ nav a {
   margin-right: 500px;
   margin-bottom: 0px;
   margin-left: 100px;
-  border-color: #808080;
-  border-width: 5px;
-  border-radius: 5px;
   background-color: white;
   padding: 20px;
   padding-right: 400px;
   padding-left: 200px;
   padding-top: 100px;
 }
-
-  .yhteystiedot2 {
-    font-size:20px;
-    font-family: "Bahnschrift Light";
-    text-indent: 0px;
-    padding-bottom: 40px;
-  }
-  .yhteystiedot3 {
-    font-size:20px;
-    font-family: "Bahnschrift Light";
-    text-indent: 0px;
- }
-
-
-h1 {
-    font-size: 40px;
-    text-align: center;
-    font-family: "Papyrus";
-    height: 20px;
-    }
-h2 {
-    font-size: 30px;
-    text-align: justify;
-    font-family:  "Poor Richard";
-    padding-left: 150px;
-    background-color: white;
-    margin-top: 0px;
-    margin-right: 100px;
-    margin-bottom: -40px;
-    margin-left: 100px;
-
+.yhteystiedot2 {
+  font-size:20px;
+  font-family: "Bahnschrift Light";
+  text-indent: 0px;
+  padding-bottom: 40px;
 }
-h3 {
-    font-size: 30px;
-    font-family:  "Poor Richard";
-    padding-left: 150px;
-    margin-top: 0px;
-    margin-right: 500px;
-    margin-bottom: -40px;
-    margin-left: 100px;
+.yhteystiedot3 {
+  font-size:20px;
+  font-family: "Bahnschrift Light";
+  text-indent: 0px;
 }
-h4 {
-  font-size: 40px;
-  font-family: "Poor Richard";
-  padding-bottom: 50px;
-}
-p {
-    font-size:20px;
-    font-family: "Bahnschrift Light";
-    text-indent: 50px;
-    padding-right: 50px;
-}
-
-
-    @media screen and (min-width: 1200px) {
-        #etusivu {
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 550px;
-        }
-    }
-    .galleriaotsikko {
-      height: 100px;
-      padding: 20px;
-    
-      padding-left: 200px;
-      padding-right: 200px;
-      padding-top: -50px;
-      margin-top: 600px;
-
-    }
-    .kuvat1 {
-      margin: auto;
-      width: 65%;
-      padding-left: 200px;
-      padding-right: 200px;
-      display: inline-grid;
-    }
-
-    figcaption {
-      font-size:20px;
-    font-family: "Bahnschrift Light";
-    text-indent: 10px;
-    }
-
-    kuvat2 {
-
-    }
