@@ -3,7 +3,7 @@ body {
   height: 550px;
   margin: 0;
 }
-
+/* yhteystieto sivun kuvien asettelu*/
 .yhtkuvat {
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@ body {
   height: auto;
   margin-right: 10px;
 }
-header{
+header{ /*header ja navigaatio painikkeet. */
   text-align: center;
   padding-top: 30px;
 }
@@ -42,7 +42,7 @@ nav a:hover {
     background-color: transparent;
     text-decoration: underline;
   }
-  a.link2 {
+  a.link2 { /* linkin väri */
     color: blue;
 
   }
@@ -52,7 +52,7 @@ nav a:hover {
     text-align: justify;
     font-family: "Bahnschrift Light";
     background-color: white;
-  }
+  } 
   /*yhteystieto - sivun asettelua*/
 .yhteystiedot {
   text-align: justify;
@@ -63,7 +63,7 @@ nav a:hover {
   font-family: "Bahnschrift Light";
 }
 
-
+/* otsikkojen ja tekstien ulkoasu */
 h1 {
     text-align: center;
     font-family: "Papyrus";
