@@ -51,10 +51,11 @@ nav a:hover {
     text-decoration: none;
   }
   #nykyinen {
-    color: rgb(94, 78, 53);
+    color: rgb(0, 0, 0);
     background-color:rgba(153, 92, 1, 0.6);
     text-decoration: underline;
     display: inline-block;
+    border-color: black;
     border-style: solid;
 }
 
