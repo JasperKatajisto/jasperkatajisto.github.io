@@ -48,6 +48,9 @@ nav a:hover {
   #nykyinen {
     color: rgb(94, 78, 53);
     background-color:rgba(153, 92, 1, 0.6);
+    text-decoration: underline;
+    display: inline-block;
+    border-style: solid;
 }
 
   .content {
