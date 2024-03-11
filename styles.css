@@ -44,8 +44,11 @@ nav a:hover {
   }
   a.link2 { /* linkin väri */
     color: blue;
-
   }
+  #valittu {
+    color: rgb(94, 78, 53);
+    background-color:rgba(153, 92, 1, 0.6);
+}
 
   .content {
     color: #000000;
