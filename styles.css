@@ -44,6 +44,11 @@ nav a:hover {
   }
   a.intext { /* linkin väri */
     color: blue;
+    
+  }
+  a.return {
+    color:black;
+    text-decoration: none;
   }
   #nykyinen {
     color: rgb(94, 78, 53);
