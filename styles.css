@@ -117,7 +117,7 @@ p {
 /* ===================================================mobiilikoko=========================================================================================================================== */
 @media (max-width: 600px) {
   #etusivu { 
-     background-image: url('imgbg-mobile.jpg');
+     background-image: url('https://github.com/JasperKatajisto/jasperkatajisto.github.io/blob/main/imgbg-mobile.jpg?raw=true');
     background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: contain;
